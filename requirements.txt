@@ -1,0 +1,10 @@
+# nn-zero-to-hero lecture notebooks
+# RTX 50-series needs a CUDA 12.8+ build. The default PyPI wheel is CPU-only.
+--extra-index-url https://download.pytorch.org/whl/cu132
+torch==2.14.1+cu132
+numpy
+matplotlib
+jupyter
+ipykernel
+ipywidgets
+graphviz
